@@ -6,7 +6,7 @@
 INPUT=$1
 OUTPUT=$2
 
-OPTIONS="--update --stop-on-error --no-cache --sourcemap=none"
+OPTIONS="--update --force --stop-on-error --no-cache --sourcemap=none"
 if [[ -n $3 ]] 
 then
   if [[ $3 == "-d" ]] || [[ $3 == "--debug" ]]
